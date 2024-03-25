@@ -1,12 +1,11 @@
-Тестовое задание Neoflex 2024
+#Тестовое задание Neoflex 2024
 
-
-Стек проекта:
-  Java
-  Spring
-  Junit5
-  MockMvc
-  Docker
+#Стек проекта:
+ * Java
+ * Spring
+ * Junit5
+ * MockMvc
+ * Docker
 
 Postman 
   Без указания точной даты ухода в отпуск

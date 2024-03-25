@@ -8,7 +8,5 @@ import java.time.LocalDate;
 public interface VacationPayService {
     double calculateVacationPay(VacationPayRequest vacationPayRequest);
 
-    int calculateWorkingDays(LocalDate startDate, int numberOfVacationDays);
-
     double calculateVacationPayWithDate(VacationPayDatesRequest vacationPayRequest);
 }

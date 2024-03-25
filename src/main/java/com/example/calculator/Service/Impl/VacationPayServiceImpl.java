@@ -36,8 +36,7 @@ public class VacationPayServiceImpl implements VacationPayService {
         return Math.round(result * 100.0) / 100.0;
     }
 
-    @Override
-    public int calculateWorkingDays(LocalDate startDate, int numberOfVacationDays) {
+    private int calculateWorkingDays(LocalDate startDate, int numberOfVacationDays) {
         int workingDays = 0;
 
         LocalDate date = startDate;

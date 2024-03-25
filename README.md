@@ -16,14 +16,14 @@
 
 # Docker
 
-  Сборка образа
+  Сборка образа:
   `docker build -t calculator .`
 
-  Запуск контейнера
+  Запуск контейнера:
   `docker run --name container -p 8080:8080  calculator`
 
-  Загрузка образа из dockerHub
+  Загрузка образа из dockerHub:
   `docker pull lancerac/calculator:latest`
 
-  Ссылка на DockerHub
+  Ссылка на DockerHub:
   https://hub.docker.com/repository/docker/lancerac/calculator/general

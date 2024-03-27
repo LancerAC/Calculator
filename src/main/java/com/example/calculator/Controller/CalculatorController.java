@@ -18,7 +18,7 @@ public class CalculatorController {
     private final VacationPayServiceImpl vacationPayServiceImpl;
 
     @GetMapping("/calculate")
-    public ResponseEntity<?> getVacationPay
+    public ResponseEntity<Double> getVacationPay
             (@Validated @RequestBody VacationPayRequest request) {
 
         return new ResponseEntity<>(vacationPayServiceImpl
@@ -29,7 +29,7 @@ public class CalculatorController {
     }
 
     @GetMapping("/calculate/dates")
-    public ResponseEntity<?> getVacationPayWithDates
+    public ResponseEntity<Double> getVacationPayWithDates
             (@Validated @RequestBody VacationPayDatesRequest request){
 
         return new ResponseEntity<>(vacationPayServiceImpl
